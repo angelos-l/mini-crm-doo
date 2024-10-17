@@ -13,6 +13,7 @@
 1. Clone the repository via ssh:
 
     git clone git@github.com:angelos-l/mini-crm-doo.git
+
     cd mini-crm-doo
 
 2. Install dependencies:
@@ -27,7 +28,9 @@
 4. Run migrations and seeders:
 
     php artisan migrate
+
     php artisan db:seed --class=AdminSeeder
+
     php artisan db:seed --class=DatabaseSeeder
 
 5. Create Storage link
